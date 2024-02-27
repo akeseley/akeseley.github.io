@@ -1,9 +1,10 @@
 ul li {
     display: inline;
-    border: dotted steelblue;
+    border: 3px dotted steelblue;
     text-align: center;
     width: 100px;
     list-style-type: none;
     padding: 35px 35px 35px 35px;
     margin-top: 0;
     }
+    
