@@ -1,7 +1,6 @@
 ul li {
     display: inline;
-    border: none;
-    text-decoration: underline;
+    border: dotted steelblue;
     text-align: center;
     width: 150px;
     list-style-type: none;
