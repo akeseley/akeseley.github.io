@@ -1,4 +1,5 @@
-li {display: inline;
+nav ul li {
+  display: inline;
   border: 15px solid lightcoral;
   padding: 50px;
   margin: 20px;
