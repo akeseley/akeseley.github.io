@@ -1,3 +1,6 @@
-ul li {
-    border: 10px orangered;
-    }
+li {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
