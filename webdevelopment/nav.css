@@ -1,4 +1,4 @@
-li {
+ul li {
     display: inline;
     width: 300px;
     border: 15px solid green;
