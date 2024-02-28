@@ -1,6 +1,8 @@
-nav ul li {
-  display: inline;
-  border: 15px solid lightcoral;
-  padding: 50px;
-  margin: 20px;
+ul li {
+    display: inline;
+    border: solid lightseagreen;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
 }
