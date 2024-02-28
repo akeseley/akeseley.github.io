@@ -1,7 +1,5 @@
-ul li {
-    display: inline;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-  }
+li {display: inline;
+  border: 15px solid lightcoral;
+  padding: 50px;
+  margin: 20px;
+}
