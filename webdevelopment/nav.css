@@ -1,8 +1,39 @@
-nav ul li {
-    display: inline;
-    border: solid lightseagreen;
-    text-align: center;
+nav {
+    top: 0px;   
+}
+
+nav ul {
     list-style-type: none;
-    padding: 10px;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    background-color: beige;
+    border: solid black;
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li ul li{
+    margin: 0px;
+}
+
+nav>ul>li:hover>ul{
+    display: flex;
+    flex-direction: column;
 }
