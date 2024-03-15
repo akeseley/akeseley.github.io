@@ -31,6 +31,7 @@ img {
     width: 80%;
     height: auto;
   }
+}
 .item2 {
     grid-area: item2;
     padding-top: 20px;
@@ -46,7 +47,7 @@ img {
     justify-self: center;
     padding-left: 10px;
 }
-}
+
 
 @media screen and (max-width: 768px) {
 .grid {
