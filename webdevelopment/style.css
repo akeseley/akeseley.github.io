@@ -2,18 +2,14 @@ h1 {color: #53afed;}
 
 header {
     display: inline;
-    vertical-align:center;
+    vertical-align: center;
 }
 footer {
     display: inline;
-    vertical-align:center;
+    vertical-align: center;
 }
 
 @media screen and (min-width: 760px) {
-img {
-    max-width: 100%;
-    text-align: left;
-}
 .grid {
     display: grid;
     grid-gap: 1em;
@@ -23,6 +19,10 @@ img {
         "item1 item2"
         "item3 item3"
         "item4 item4";
+}
+img {
+    max-width: 100%;
+    text-align: left;
 }
 .item1 {
     grid-area: item1;
@@ -38,7 +38,7 @@ img {
 }
 .item3 {
     grid-area: item3;
-   justify-self: left;
+   justify-self: center;
    padding-left: 10px;
 }
 .item4 {
@@ -67,6 +67,7 @@ img {
 }       
 img {
     max-width: 100%;
+    justify-self: center;
     padding-left: 10px;
 }
 .item2{
@@ -75,6 +76,7 @@ img {
 }
 .item3 {
     grid-area: item3;
+    justify-self: center;
     padding-left: 10px;
 }
 .item4 {
