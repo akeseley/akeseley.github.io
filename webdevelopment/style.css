@@ -2,14 +2,14 @@ h1 {color: #53afed;}
 
 header {
     display: inline;
-    vertical-align: center;
+    text-align: center;
 }
 footer {
     display: inline;
-    vertical-align: center;
+    text-align: center;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 769px) {
 .grid {
     display: grid;
     grid-gap: 1em;
@@ -48,7 +48,7 @@ img {
 }
 }
 
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 768px) {
 .grid {
     display: grid;
     grid-gap: 1em;
