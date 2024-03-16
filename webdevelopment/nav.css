@@ -47,7 +47,6 @@ nav > ul > li:hover > ul {
         display: inline-block;
         padding-left: 20px;
         width: 26px;
-        float: left;
         font-size: 2em;
     }
 
@@ -61,7 +60,6 @@ nav > ul > li:hover > ul {
 
     nav:hover ul {
         display: inline-block;
-        float: left;
         padding: 5px;
         border-right: 0;
     }
