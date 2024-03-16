@@ -63,6 +63,7 @@ img {
 }
 .item1 {
     grid-area: item1;
+    justify-self: center;
     padding-left: 10px;
 } 
 img {
