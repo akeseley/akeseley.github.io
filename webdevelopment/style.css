@@ -103,6 +103,9 @@ img {
         color: #000;
         font-family: sans-serif;
     }
+    nav, a, img {
+        display: none;
+    }
     @page {
         margin: 1in;
     }
