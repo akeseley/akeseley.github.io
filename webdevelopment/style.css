@@ -1,4 +1,14 @@
-h1 {color: #53afed;}
+@font-face { 
+
+    font-family: Quicksand;
+    
+    src: url("Quicksand-VariableFont_wght.ttf");
+    
+}
+
+h1 {color: #53afed;
+    font-family: Quicksand;
+}
 
 header {
     display: inline;
@@ -86,4 +96,14 @@ img {
     justify-self: center;
     padding-left: 10px;
 }
+}
+
+@media print{
+    * {
+        color: #000;
+        font-family: sans-serif;
+    }
+    @page {
+        margin: 1in;
+    }
 }
