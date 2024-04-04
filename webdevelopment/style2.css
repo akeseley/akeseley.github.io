@@ -1,4 +1,14 @@
-h1 {color: #53afed;}
+@font-face { 
+
+    font-family: Quicksand;
+    
+    src: url("Quicksand-VariableFont_wght.ttf");
+    
+}
+
+h1 {color: #53afed;
+    font-family: Quicksand;
+}
 
 header {
     display: inline;
@@ -7,6 +17,8 @@ header {
 footer {
     display: inline;
     text-align: center;
+    background-image: url(IMG_3588.jpeg);
+    background-size: cover;
 }
 
 @media screen and (min-width:769px) {
