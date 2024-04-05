@@ -17,7 +17,8 @@ header {
 footer {
     display: inline;
     text-align: center;
-    background-image: url("IMG_3588.jpeg");
+    background-image: url('IMG_3588.jpeg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
