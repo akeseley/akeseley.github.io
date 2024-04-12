@@ -18,6 +18,11 @@ footer {
     display: inline;
     text-align: center;
 }
+.foot {
+    background-image: url("Background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media screen and (min-width:769px) {
 img {
@@ -78,7 +83,7 @@ img {
 } 
 img {
     max-width: 50%;
-    padding-left: 50px;
+    padding-left: 125px;
     grid-area: item2;
     justify-self: center;
 }      
@@ -126,10 +131,4 @@ img {
 .pic:hover + .picbig{
     width: 200px;
     height: 200px;
-}
-
-.foot {
-    background-image: url('Background.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
