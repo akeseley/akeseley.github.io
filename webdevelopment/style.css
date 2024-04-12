@@ -78,7 +78,7 @@ img {
 } 
 img {
     max-width: 50%;
-    padding-left: 10px;
+    padding-left: 50px;
     grid-area: item2;
     justify-self: center;
 }      
@@ -128,7 +128,7 @@ img {
     height: 200px;
 }
 
-.footer {
+.foot {
     background-image: url('IMG_3588.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
