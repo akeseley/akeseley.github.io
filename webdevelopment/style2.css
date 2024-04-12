@@ -17,9 +17,6 @@ header {
 footer {
     display: inline;
     text-align: center;
-    background-image: url('IMG_3588.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @media screen and (min-width:769px) {
@@ -159,4 +156,9 @@ img {
 }
 .pic:hover + .picbig{
     width: 200px;
+}
+.foot {
+    background-image: url('Background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
