@@ -128,7 +128,7 @@ img {
     height: 200px;
 }
 
-footer#footer {
+.footer {
     background-image: url('IMG_3588.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
