@@ -77,7 +77,7 @@ img {
     padding-left: 10px;
 } 
 img {
-    max-width: 100%;
+    max-width: 50%;
     padding-left: 10px;
     grid-area: item2;
     justify-self: center;
