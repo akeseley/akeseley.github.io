@@ -134,9 +134,21 @@ img {
 }
 
 table, th, td {
-    border: 1px solid lightcoral;
+    border: 1px solid black;
     border-collapse: collapse;
+    padding: 4px 8px;
 }
+
+table th {
+    text-align: left;
+    background-color: #3a6070;
+    color: #FFF;
+}
+
+table tr:nth-child(even) td {
+    background-color: #e7edf0;
+}
+
 @media screen and (max-width:768px) {
     tr{
         font-size: 12px;
