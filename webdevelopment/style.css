@@ -19,7 +19,7 @@ footer {
     text-align: center;
 }
 .foot {
-    background-image: url("Background.jpeg");
+    background-image: url("/Background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -131,4 +131,14 @@ img {
 .pic:hover + .picbig{
     width: 200px;
     height: 200px;
+}
+
+table, th, td {
+    border: 1px solid lightcoral;
+    border-collapse: collapse;
+}
+@media screen and (max-width:768px) {
+    tr{
+        font-size: 12px;
+    }
 }
