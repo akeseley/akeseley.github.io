@@ -4,6 +4,7 @@
 
 nav {
     top: 0;
+    position: relative;
 }
 
 nav ul {
@@ -50,22 +51,16 @@ nav > ul > li:hover > ul {
         font-size: 2em;
     }
 
-    nav ul,
-    nav:active ul {
-        display: none;
+    #hamburger:hover + nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: beige;
         position: absolute;
         padding: 20px;
         top: 60px;
         right: 0;
         width: 100%;
-    }
-
-    nav:hover ul {
-        display: block;
-    }
-
-    nav:hover #mobileHide {
-        display: none;
     }
 
     nav li {
