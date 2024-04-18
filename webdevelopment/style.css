@@ -17,8 +17,6 @@ header {
 footer {
     display: inline;
     text-align: center;
-}
-.foot {
     background-image: url('fback.jpeg');
     background-size: cover;
 }
