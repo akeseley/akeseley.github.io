@@ -20,7 +20,8 @@ header {
 footer {
     display: inline;
     text-align: center;
-    background-image: url(https://images.squarespace-cdn.com/content/v1/5c338212f79392a6870f4530/1702656938445-BAEGGVV73F1MG5WVAJIN/blue-gray-color-solid-background-1920x1080.png?format=2500w);
+    background-color: cornflowerblue;
+    background-image: url("background.png");
     background-size: cover;
 }
 
