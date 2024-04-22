@@ -79,10 +79,10 @@ nav > ul > li:hover > ul {
         margin: 0;
     }
 
-    nav > ul li {
+    nav > ul > li {
         text-align: center;
         font-weight: bold;
-        float: none; /* Remove float */
+        position: relative; /* Add relative positioning */
     }
 
     nav a {
@@ -96,15 +96,13 @@ nav > ul > li:hover > ul {
 
     nav ul li ul {
         display: none;
-        position: static; /* Remove absolute positioning */
-        top: auto;
-        left: auto;
+        position: absolute; /* Add absolute positioning */
+        top: 100%; /* Adjust as needed */
+        left: 0;
+        width: 100%; /* Set width to fill parent */
     }
 
     nav ul li:hover > ul {
         display: block; /* Change to block for visibility */
-        position: absolute; /* Add absolute positioning */
-        top: 100%; /* Adjust as needed */
-        left: 0;
     }
 }

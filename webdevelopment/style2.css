@@ -17,7 +17,7 @@ header {
 footer {
     display: inline;
     text-align: center;
-    background-image: url(blueback.jpg);
+    background-image: url("background.png");
     background-size: cover;
 }
 
