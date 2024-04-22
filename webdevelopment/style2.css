@@ -116,6 +116,7 @@ img {
     justify-self: center;
     padding-left: 10px;
     width: 50%;
+    height: auto;
 }
 .item2 {
     grid-area: item2;
@@ -147,6 +148,7 @@ img {
     justify-self: center;
     padding-left: 10px;
     width: 50%;
+    height: auto;
 }
 .item8 {
     grid-area: item8;
