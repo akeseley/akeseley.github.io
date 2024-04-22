@@ -20,9 +20,10 @@ header {
 footer {
     display: inline;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: lightpink;
     background-image: url("background.png");
     background-size: cover;
+    overflow: auto;
 }
 
 @media screen and (min-width:769px) {
