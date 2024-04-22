@@ -18,12 +18,14 @@ header {
     text-align: center;
 }
 footer {
+    height: 50px;
+    width: 100%;
+    overflow: auto;
     display: inline;
     text-align: center;
     background-color: lightpink;
     background-image: url("background.png");
     background-size: cover;
-    overflow: auto;
 }
 
 @media screen and (min-width:769px) {
