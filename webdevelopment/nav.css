@@ -91,7 +91,7 @@ nav > ul > li:hover > ul {
         margin-bottom: 2px;
     }
     
-    nav ul li ul {
+    nav ul li ul li{
         display: none;
     }
 }

@@ -5,6 +5,9 @@
     src: url("Quicksand-VariableFont_wght.ttf");
     
 }
+main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 h1 {color: #53afed;
     font-family: Quicksand;
