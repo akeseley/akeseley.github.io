@@ -43,66 +43,33 @@ nav > ul > li:hover > ul {
 }
 
 @media only screen and (max-width: 640px) {
-    #hamburger {
-        display: inline-block;
+    #hamburger{
+        display: block;
         padding-left: 20px;
-        width: 26px;
-        font-size: 2em;
+        width: 20px;
     }
-
-    nav ul,
-    nav:active ul {
-        display: none;
-        position: absolute;
-        padding: 0;
-        top: 60px; /* Adjust this value based on your design */
-        left: 0;
-        width: auto; /* Adjust the width as needed */
-        min-width: 150px; /* Set a minimum width to prevent covering */
-    }
-
-    nav:hover ul {
-        display: block; /* Change to block to ensure visibility */
-        padding: 5px;
-        border-right: 0;
-        width: auto; /* Adjust the width as needed */
-        min-width: 150px; /* Set a minimum width to prevent covering */
-    }
-
-    nav:hover #mobileHide {
-        display: none;
-    }
-
-    nav li {
+    nav {
         text-align: center;
-        padding: 0;
+        width: 100%;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        width: 100%;
+        padding: 15px 0;
+        margin: 0;
+        position: relative;
+    }
+    nav ul li ul {
+        width: 100%;
+        z-index: 1;
+    }
+    nav ul li a {
+        display: block;
         margin: 0;
     }
-
-    nav > ul > li {
-        text-align: center;
-        font-weight: bold;
-        position: relative; /* Add relative positioning */
-    }
-
-    nav a {
-        text-decoration: none;
-        display: block; /* Change to block for better spacing */
-        border-top: none;
-        border-bottom: none;
-        padding: 15px 0;
-        margin-bottom: 2px;
-    }
-
-    nav ul li ul {
-        display: none;
-        position: absolute; /* Add absolute positioning */
-        top: 100%; /* Adjust as needed */
-        left: 0;
-        width: 100%; /* Set width to fill parent */
-    }
-
-    nav ul li:hover > ul {
-        display: block; /* Change to block for visibility */
-    }
+    #toggle:checked + nav ul {
+        display: block;
+    } 
 }
