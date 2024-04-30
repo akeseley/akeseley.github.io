@@ -86,13 +86,9 @@ nav > ul > li:hover > ul {
         display: inline-block;
         border-top: none;
         border-bottom: none;
-        padding: 15px 0px 15px 35px;
+        padding: 2px;
         width: 50px;
         margin-bottom: 2px;
-    }
-
-    nav ul li ul {
-        block-size: 50px;
     }
     
     nav ul li ul li{
