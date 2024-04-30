@@ -60,7 +60,6 @@ nav > ul > li:hover > ul {
     
     nav:hover ul {
         display: inline-block;
-        block-size: 50px;
         background-color: lightcyan;
         padding: 5px;
         border-right: 0px;
@@ -90,6 +89,10 @@ nav > ul > li:hover > ul {
         padding: 15px 0px 15px 35px;
         width: 50px;
         margin-bottom: 2px;
+    }
+
+    nav ul li ul {
+        block-size: 50px;
     }
     
     nav ul li ul li{
