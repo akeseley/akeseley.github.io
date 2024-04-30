@@ -86,8 +86,8 @@ nav > ul > li:hover > ul {
         display: inline-block;
         border-top: none;
         border-bottom: none;
-        padding: 5px;
-        width: 20px;
+        padding: 1px;
+        width: 10px;
         margin: 2px;
     }
     
