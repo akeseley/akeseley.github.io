@@ -54,6 +54,7 @@ nav > ul > li:hover > ul {
     nav:active ul {
         display: none;
         position: absolute;
+        width: 50px;
         padding: 10px;
         top: 10px;
     }
